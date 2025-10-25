@@ -1780,7 +1780,7 @@ Unit* YoggSaronTrigger::GetIllusionRoomRtiTarget()
         return nullptr;
     }
 
-    uint8 rtiIndex = RtiTargetValue::GetRtiIndex(AI_VALUE(std::string, "rti"));
+    uint8_t rtiIndex = RtiTargetValue::GetRtiIndex(AI_VALUE(std::string, "rti"));
     if (rtiIndex == -1)
     {
         return nullptr;  // Invalid RTI mark
